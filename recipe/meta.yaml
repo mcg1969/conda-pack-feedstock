@@ -1,6 +1,6 @@
 {% set name = "conda-pack" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "0d31e2cc15717e894a52a6b27580b67ee4a7bdf903443abe4f755e10c3f70b66" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "7b917a66f64d089ae91173d92c8c456db11a07f98c03a3080a1f74e8a866c2ea" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   skip: True  # [win]
   entry_points:
