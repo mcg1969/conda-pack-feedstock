@@ -17,9 +17,8 @@ potentially in a location where python/conda isn't already installed.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/conda-pack-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/conda-pack-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/conda-pack-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/conda-pack-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/conda-pack-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/conda-pack-feedstock)
 
 Current release info
 ====================
